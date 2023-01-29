@@ -58,13 +58,13 @@
     align-items: flex-start;
 }
 
-/* .superInput {
-
+.superInput {
+  background: whitesmoke;
 }
 
 .className {
 
-} */
+}
 
 .errorInput {
     border: 3px solid #CC1439;
