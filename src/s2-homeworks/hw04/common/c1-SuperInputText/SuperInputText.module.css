@@ -1,20 +1,89 @@
-.input:focus {
+/* .input:focus {
+  outline: none;
+  border: yellow solid 2px;
 }
 
 .input {
+  margin: 10px;
+  background: lightgray;
+  color: black;
 }
 
 .inputWrapper {
+  margin: 10px;
+  background: lightgray;
+  color: black;
 }
 
 .superInput {
+  margin: 10px;
+  background: goldenrod;
+  color: black;
 }
 
 .errorInput {
+  margin: 10px;
+  background: red;
+  color: black;
 }
 
 .errorInput:focus {
+  outline: none;
+  border: yellow solid 2px;
 }
 
 .error {
+  color: brown;
+  height: 20px;
+  margin-left: 15px;
+} */
+
+
+/* .input:focus {
+} */
+
+.input {
+    outline: none;
+    background: whitesmoke;
+    border: 1px solid #D1D1D1;
+    border-radius: 15px;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .superInput {
+
+}
+
+.className {
+
+} */
+
+.errorInput {
+    border: 3px solid #CC1439;
+}
+
+/* .errorInput:focus {
+
+} */
+
+
+.error {
+    display: block;
+    color: #CC1439;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 15px;
+    line-height: 12px;
+    margin-top: 10px;
+    align-self: center;
+    margin-bottom: 5px;
 }

@@ -1,36 +1,149 @@
-.button {
+/* .button {
+  background: green;
+  color: white;
+  outline: none;
 }
 
 .disabled {
+  background: gray;
+  color: black;
+  outline: none;
 }
 
 .secondary {
+  background: yellow;
+  color: yellowgreen;
+  outline: none;
 }
 
 .default {
+  background: green;
+  color: yellowgreen;
+  outline: none;
 }
 
 .red {
-}
+  background-color: red;
+} */
 
-.default:hover {
+/* .default:hover {
 }
 
 .red:hover {
 }
 
 .secondary:hover {
+} */
+
+
+/* .default:active {
+}
+
+.secondary:active {
+} */
+
+/* .red:active {
+  background: red;
+}
+
+.button:disabled {
+  background: gray;
+  color: black;
+  outline: none;
+} */
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 24px;
+  gap: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.disabled {
+  width: 132px;
+  height: 30px;
+  color: #002E5C;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background: #004D99;
+  opacity: 50%;
+}
+
+.secondary {
+  width: 132px;
+  height: 30px;
+  background: yellow;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* background: transparent; */
+  color: #0066CC;
+  border: 1px solid #0066CC
+
+}
+
+.default {
+  width: 132px;
+  height: 30px;
+  color: yellow;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background: #0066CC;
+}
+
+.red {
+  width: 132px;
+  height: 30px;
+  color: black;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background: #CC1439;
+}
+
+.default:hover {
+  background-color: #0080FF;
+}
+
+.red:hover {
+  background-color: #FF1A47;
+}
+
+.secondary:hover {
+  background-color: #E5F0FA;
 }
 
 
 .default:active {
+  background-color: #0059B2;
 }
 
 .secondary:active {
+background-color: #C9E5FF;
 }
 
 .red:active {
+  background-color: #B21232;
 }
 
 .button:disabled {
+  background: gray;
+  color: black;
+  outline: none;
 }
