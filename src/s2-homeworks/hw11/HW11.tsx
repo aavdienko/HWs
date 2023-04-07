@@ -17,7 +17,6 @@ function HW11() {
 
     const change = (event: Event, value: number | Array<number>)  => {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
-        const minDistance = 5
         if (!Array.isArray(value)) {
             saveState('hw11-value1', value)
             setValue1(value)
@@ -60,7 +59,6 @@ function HW11() {
                             // сделать так чтоб value1/2 изменялось // пишет студент
                             value={value2}
                             onChange={change}
-                            disableSwap
                         />
                         <span id={'hw11-value-2'} className={s.number}>{value2[value2.length - 1]}</span>
                     </div>
